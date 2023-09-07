@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  max-width: 300px;
+  height: auto;
+  list-style: none;
+}
+li {
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+li.completed {
+  text-decoration: line-through;
+}
