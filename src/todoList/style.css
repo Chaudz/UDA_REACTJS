@@ -1,0 +1,28 @@
+.done{
+    text-decoration:line-through ;
+}
+
+.close-btnCreateBox.show{
+    display: block;
+}
+.close-btnCreateBox.hidden{
+    display: none;
+}
+.close-btnUpdateBox.show{
+    display: block;
+}
+.close-btnUpdateBox.hidden{
+    display: none;
+}
+.close-btnDeleteBox.show{
+    display: block;
+}
+.close-btnDeleteBox.hidden{
+    display: none;
+}
+.overlay.hidden{
+    display: none;
+}
+.overlay.show{
+    display: block;
+}
