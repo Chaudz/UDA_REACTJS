@@ -3,8 +3,8 @@ import { Stack, TextField, Typography, Button, FormControl, FormHelperText } fro
 import Todo from './todo';
 
 const dataInit = [
-  { id: 1, name: 'homework', status: 'done' },
-  { id: 2, name: 'di cho', status: 'inProgress' },
+  { id: 1, name: 'làm bài tập', status: 'done' },
+  { id: 2, name: 'đi chợ', status: 'inProgress' },
   { id: 3, name: 'Di an', status: 'done' },
 ];
 function TodoList(props) {
