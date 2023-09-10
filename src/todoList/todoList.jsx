@@ -238,7 +238,7 @@ function TodoList(props) {
             variant="contained"
             onClick={() => {
               if (valueNewTodo !== '') {
-                let maxIdCurrent = Math.max(...data.map((todo) => todo.id));
+                let maxIdCurrent = data.length > 0 ? Math.max(...data.map((todo) => todo.id)) : 1;
                 let newTodo = { id: maxIdCurrent + 1, name: valueNewTodo, status: 'inProgress' };
                 data.push(newTodo);
                 setCloseBtnCreateBox('close-btnCreateBox hidden');
